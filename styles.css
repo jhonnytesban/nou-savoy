@@ -8,6 +8,7 @@
   align-items: center;
   /* background-color: rebeccapurple; */
   padding: 1rem;
+  box-shadow: 0 2px 5px rgb(95, 95, 95);
   box-sizing: border-box;
 }
 /* .logo-link{
@@ -41,10 +42,15 @@
   font-family: var(--font-opensans);
   color: white;
 }
+.category__link:active .article-category{
+  transform: scale(.8, .8);
+  transition: transform .3s;
+}
 .article-category{
   width: 100%;
   position: relative;
   margin-bottom: 2rem;
+  transition: transform .2s;
 }
 .article-category::after{
   content: "";
