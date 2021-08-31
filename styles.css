@@ -85,7 +85,7 @@
   z-index: 1000;
 }
 
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) {
   .subtitle{
     font-size: 1.2rem;
   }
@@ -99,4 +99,4 @@
   .article-category{
     margin-bottom: 0
   }
-}
+} */
