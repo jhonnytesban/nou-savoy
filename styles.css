@@ -126,18 +126,22 @@ body{
   /* letter-spacing: .1rem; */
 }
 
-/* @media screen and (min-width: 320px) {
-  .subtitle{
-    font-size: 1.2rem;
-  }
-  .container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: auto;
-    column-gap: .5rem;
-    row-gap: .5rem;
-  }
-  .article-category{
-    margin-bottom: 0
-  }
-} */
+/* Menús */
+.main-menu{
+  padding: 0 .5rem;
+}
+.container-menu{
+  overflow: scroll;
+}
+.menu{
+  list-style: none;
+  padding: 0;
+}
+.menu__item{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  font-family: var(--font-opensans);
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
