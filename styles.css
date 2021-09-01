@@ -73,7 +73,7 @@ body{
   text-decoration: none;
   font-family: var(--font-opensans);
   color: white;
-  border-radius: 100px;
+  border-radius: 80px;
 }
 .category__link:active .article-category{
   transform: scale(.8, .8);
@@ -81,9 +81,9 @@ body{
 }
 .article-category{
   width: 100%;
-  height: 95px;
+  height: 105px;
   position: relative;
-  border-radius: 100px;
+  border-radius: 20px;
   /* box-shadow: 1px 5px rgb(145, 145, 145); */
   /* margin-bottom: 2rem; */
   transition: transform .2s;
